@@ -1,1 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2020-07-06T02:26:19.548Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" version="13.3.9" etag="fe7mJZDmeirTJgv4Wi48" type="github"><diagram id="PPB9TU_Hwcu_MVl5UrA3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-07-06T02:29:47.897Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="kf_GBfMcV3Kg2UGJ3JGP" version="13.3.9" type="github">
+  <diagram id="PPB9TU_Hwcu_MVl5UrA3" name="Page-1">
+    <mxGraphModel dx="1424" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NbCWf5erqYkB4Fg4z-6i-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NbCWf5erqYkB4Fg4z-6i-1" target="NbCWf5erqYkB4Fg4z-6i-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbCWf5erqYkB4Fg4z-6i-1" value="MERCHANT/BUYER SIGN_UP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NbCWf5erqYkB4Fg4z-6i-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbCWf5erqYkB4Fg4z-6i-2" target="NbCWf5erqYkB4Fg4z-6i-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbCWf5erqYkB4Fg4z-6i-2" value="OTP_VERIFICATION" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="140" width="124" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NbCWf5erqYkB4Fg4z-6i-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NbCWf5erqYkB4Fg4z-6i-4" target="NbCWf5erqYkB4Fg4z-6i-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbCWf5erqYkB4Fg4z-6i-4" value="SET_PIN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NbCWf5erqYkB4Fg4z-6i-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbCWf5erqYkB4Fg4z-6i-5" target="NbCWf5erqYkB4Fg4z-6i-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NbCWf5erqYkB4Fg4z-6i-5" value="SET_PROFILE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NbCWf5erqYkB4Fg4z-6i-9" value="SINGUP_COMPLETED&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="140" width="180" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
