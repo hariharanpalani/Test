@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2020-07-07T01:02:00.805Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="icBvf-u-9WlhvbRy79gK" version="13.3.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-07T01:09:38.782Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="DRobZelHEpGOAZFmJ1Zp" version="13.3.9" type="github">
   <diagram id="UjOl7C_jsXXyf1ehuvvA" name="Page-1">
     <mxGraphModel dx="1424" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="bYSNxd6Yn3illK7QRajw-2" value="&lt;font style=&quot;font-size: 18px&quot;&gt;All request will pass x-device-id in API call&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;horizontal=0;" vertex="1" parent="1">
+        <mxCell id="bYSNxd6Yn3illK7QRajw-2" value="&lt;font style=&quot;font-size: 18px&quot;&gt;All request will pass x-device-id custom header in API call&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;horizontal=0;" vertex="1" parent="1">
           <mxGeometry x="30" y="110" width="70" height="580" as="geometry" />
         </mxCell>
         <mxCell id="bYSNxd6Yn3illK7QRajw-5" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;SIGN UP STAGE&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#66B2FF;fillColor=#66B2FF;" vertex="1" parent="1">
-          <mxGeometry x="110" y="110" width="960" height="30" as="geometry" />
+          <mxGeometry x="110" y="110" width="970" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bYSNxd6Yn3illK7QRajw-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bYSNxd6Yn3illK7QRajw-6" target="bYSNxd6Yn3illK7QRajw-7">
           <mxGeometry relative="1" as="geometry">
@@ -22,7 +22,7 @@
           <mxGeometry x="400" y="160" width="225" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bYSNxd6Yn3illK7QRajw-9" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;LOGIN STAGE&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#66B2FF;fillColor=#66B2FF;" vertex="1" parent="1">
-          <mxGeometry x="110" y="240" width="960" height="30" as="geometry" />
+          <mxGeometry x="110" y="240" width="970" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bYSNxd6Yn3illK7QRajw-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bYSNxd6Yn3illK7QRajw-10" target="bYSNxd6Yn3illK7QRajw-13">
           <mxGeometry relative="1" as="geometry" />
@@ -33,11 +33,41 @@
         <mxCell id="bYSNxd6Yn3illK7QRajw-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bYSNxd6Yn3illK7QRajw-13" target="bYSNxd6Yn3illK7QRajw-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="bYSNxd6Yn3illK7QRajw-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bYSNxd6Yn3illK7QRajw-13" target="bYSNxd6Yn3illK7QRajw-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bYSNxd6Yn3illK7QRajw-13" value="CHECK DEVICE ID MATCHES WITH ID STORED AGAINST USER IN DB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="360" y="290" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bYSNxd6Yn3illK7QRajw-15" value="ON SUCCESSFUL LOGIN, SAVE THE DEVICE ID IN TOKEN INFORMATION" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="629" y="290" width="200" height="60" as="geometry" />
+        <mxCell id="bYSNxd6Yn3illK7QRajw-15" value="SAVE THE DEVICE ID IN TOKEN INFORMATION ON SUCCESSFUL LOGIN" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="780" y="290" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bYSNxd6Yn3illK7QRajw-19" value="DEVICE ID MATCHES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="292" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bYSNxd6Yn3illK7QRajw-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bYSNxd6Yn3illK7QRajw-20" target="bYSNxd6Yn3illK7QRajw-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bYSNxd6Yn3illK7QRajw-20" value="RETURN LOGIN_DEVICEID_NOT_MATCH STATE AND INITIATE OTP VERIFICATION" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="360" y="410" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bYSNxd6Yn3illK7QRajw-22" value="DEVICE ID NOT MATCHES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="475" y="370" width="175" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bYSNxd6Yn3illK7QRajw-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bYSNxd6Yn3illK7QRajw-24" target="bYSNxd6Yn3illK7QRajw-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bYSNxd6Yn3illK7QRajw-24" value="OTP VERIFICATION SUCCEED" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="640" y="410" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bYSNxd6Yn3illK7QRajw-27" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;ON OTHER API PROCESS&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#66B2FF;fillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="110" y="490" width="970" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bYSNxd6Yn3illK7QRajw-28" value="RETRIEVE DEVICE ID FROM CUSTOM HEADER (x-device-id)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="110" y="540" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bYSNxd6Yn3illK7QRajw-29" value="CHECK DEVICE ID MATCHES WITH ID STORED AGAINST USER IN DB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="360" y="540" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
