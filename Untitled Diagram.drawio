@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-07-07T01:23:59.985Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="-A1njNXQ4Hputy-wAdzG" version="13.3.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-07T01:25:54.357Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="ZkJ_dzfhCPOsij12BuMu" version="13.3.9" type="github">
   <diagram id="UjOl7C_jsXXyf1ehuvvA" name="Page-1">
     <mxGraphModel dx="1424" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="bYSNxd6Yn3illK7QRajw-2" value="&lt;font style=&quot;font-size: 18px&quot;&gt;All request will pass x-device-id custom header in API call&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;horizontal=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="110" width="70" height="760" as="geometry" />
+          <mxGeometry x="30" y="110" width="70" height="800" as="geometry" />
         </mxCell>
         <mxCell id="bYSNxd6Yn3illK7QRajw-5" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;SIGN UP STAGE&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#66B2FF;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="110" y="110" width="970" height="30" as="geometry" />
@@ -108,6 +108,12 @@
             <mxPoint x="500" y="415" as="sourcePoint" />
             <mxPoint x="500" y="480" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="bYSNxd6Yn3illK7QRajw-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bYSNxd6Yn3illK7QRajw-49" target="bYSNxd6Yn3illK7QRajw-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bYSNxd6Yn3illK7QRajw-49" value="MOBILE APP HAS TO CLEAR THE STATE INFORMATION AND REDIRECT TO LOGIN PAGE" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="685" y="740" width="135" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
