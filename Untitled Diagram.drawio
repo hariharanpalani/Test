@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-07-07T00:49:39.936Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="xwf4RCDHmIJD49Fez3Zn" version="13.3.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-07T00:51:10.064Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="hZOdF8fYMke5rcVF2gke" version="13.3.9" type="github">
   <diagram id="UjOl7C_jsXXyf1ehuvvA" name="Page-1">
     <mxGraphModel dx="1424" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="bYSNxd6Yn3illK7QRajw-2" value="All request will pass x-device-id in API call" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="180" width="70" height="440" as="geometry" />
+        <mxCell id="bYSNxd6Yn3illK7QRajw-2" value="&lt;font style=&quot;font-size: 18px&quot;&gt;All request will pass x-device-id in API call&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="110" width="70" height="580" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
