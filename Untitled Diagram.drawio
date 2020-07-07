@@ -1,20 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-07-06T11:43:07.307Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="HI2cuV3qjQtxLDegWY-S" version="13.3.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-07T00:49:39.936Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="xwf4RCDHmIJD49Fez3Zn" version="13.3.9" type="github">
   <diagram id="UjOl7C_jsXXyf1ehuvvA" name="Page-1">
     <mxGraphModel dx="1424" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ogsKkGRNlhMsMJWLhvAq-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ogsKkGRNlhMsMJWLhvAq-1" target="ogsKkGRNlhMsMJWLhvAq-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ogsKkGRNlhMsMJWLhvAq-1" value="START" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="340" y="20" width="70" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="ogsKkGRNlhMsMJWLhvAq-2" value="LOGIN api will pass method, uid, pin along with custom header x-device-id" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="287.5" y="150" width="175" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="ogsKkGRNlhMsMJWLhvAq-4" value="Custom handler which verifies whether request contains x-device-id. If it doesn&#39;t has fail the&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="288" y="290" width="182" height="100" as="geometry" />
+        <mxCell id="bYSNxd6Yn3illK7QRajw-2" value="All request will pass x-device-id in API call" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="180" width="70" height="440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
