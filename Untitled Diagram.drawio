@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-07T00:55:17.860Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="2W7mVKEVtmGhPHicdgkY" version="13.3.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-07T00:55:31.908Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="P9U17BDmGx_AwU3arA7K" version="13.3.9" type="github">
   <diagram id="UjOl7C_jsXXyf1ehuvvA" name="Page-1">
     <mxGraphModel dx="1424" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -10,11 +10,16 @@
         <mxCell id="bYSNxd6Yn3illK7QRajw-5" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;SIGN UP STAGE&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#66B2FF;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="110" y="110" width="960" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="bYSNxd6Yn3illK7QRajw-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bYSNxd6Yn3illK7QRajw-6" target="bYSNxd6Yn3illK7QRajw-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="bYSNxd6Yn3illK7QRajw-6" value="RETRIEVE DEVICE ID FROM CUSTOM HEADER (x-device-id)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="110" y="160" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bYSNxd6Yn3illK7QRajw-7" value="STORE THE DEVICE ID IN USER TABLE ON SUCCESSFUL REGISTRATION" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="365" y="160" width="225" height="60" as="geometry" />
+          <mxGeometry x="570" y="160" width="225" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
